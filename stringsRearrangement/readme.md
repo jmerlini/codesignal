@@ -24,5 +24,3 @@ Given an array of equal-length strings, check if it is possible to rearrange the
 ## Future Goals
 
 Although the problem doesn't require it, it would be easy to return the maximal path in addition to the boolean -- and more helpful.
-
-Note to self: Use an array `[boolean, maximal path]` where the maximal path is empty if boolean is `False`.
