@@ -13,7 +13,7 @@ def createGraph(array):
     matrix = [[0]*length for word in range(0, length)]
     diff = 0
     for word1_idx in range(0, length):
-        for word2_idx in range(0,length):
+        for word2_idx in range(0, length):
             for letter_idx in range(0, len(array[0])):
                 if array[word1_idx][letter_idx] != array[word2_idx][letter_idx]:
                     diff += 1
